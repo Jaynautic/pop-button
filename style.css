@@ -1,10 +1,10 @@
 body {
     background-color: black;
-    cursor: url('/images/customcursor.png'),auto;
+    cursor: url('/customcursor.png'),auto;
 }
 
 button {
-    cursor: url('/images/customcursor.png'),auto;
+    cursor: url('/customcursor.png'),auto;
 }
 
 #scoreNumber {
