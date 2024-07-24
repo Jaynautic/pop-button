@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    cursor: url('/images/customcursor.png'),auto;
+}
+
+button {
+    cursor: url('/images/customcursor.png'),auto;
+}
+
+#scoreNumber {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#game {
+    display: flex;
+    margin:auto;
+    position: relative;
+    width: 60%;
+    height: 800px;
+    border-style: double;
+    border-color: black;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#boxContainer {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#mainButton {
+    visibility: hidden;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+}
+
+#pop {
+    visibility: hidden;
+    font-size: small;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+
+#startButton {
+    visibility: visible;
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    margin-top: 380px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 8px;
+}
